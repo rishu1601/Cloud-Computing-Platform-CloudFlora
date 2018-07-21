@@ -1,0 +1,3 @@
+Gist About the Project: Our team name is TechNext. We have designed our own CloudSynthesis Web Services (A Complete Cloud Platform) for our clients, having services such as operating systems,storage,networks,containers,etc as a Service for our clients. All on our cloud with a simple to navigate easy to interact interfacethrough our website. We have made these services using dockers, HTML, Python & Python CGI,DevOps, Ansible. We used many protocols to share the GUI data such as NFS,NFS4,SSH,SSHFS,VNC and NOVNC.
+
+	

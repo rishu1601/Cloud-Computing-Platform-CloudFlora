@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>HOME PAGE</title>
+    <style>
+        body {
+            background: orange !important;
+        }
+
+        #header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            background: #333333;
+        }
+
+        #logo {
+            position: relative;
+            width: 85px;
+            float: left;
+        }
+
+        .header-link {
+            padding: 3px 6px;
+            font-weight: 600;
+            color: #e9e9e9;
+            margin: 0px 0 0 10px;
+            position: relative;
+            top: 22px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        #header-link5 {
+            right: 10px;
+            float: right;
+        }
+
+        #header-link6 {
+            right: 20px;
+            float: right;
+        }
+
+        #header-field1 {
+            right: 20px;
+            float: right;
+        }
+
+        #header-field2 {
+            right: 20px;
+            float: right;
+        }
+
+        #main-container {
+            margin: 100px 0 0 0;
+            position: relative;
+            float: inherit;
+            min-height: 1000px;
+            width: 100%;
+            height: auto;
+        }
+
+        #items {
+            position: relative;
+            float: left;
+            width: 100%;
+            height: 100%;
+            margin: 0 0 80px 0;
+        }
+
+        #items-inner {
+            width: 583px;
+            margin: 0 auto;
+        }
+
+        .menu-item {
+            margin: 10px;
+            color: #fff;
+            border-radius: 16px;
+            text-align: center;
+            opacity: 0.9;
+            cursor: pointer;
+        }
+
+        .menu-item:hover {
+            opacity: 1;
+        }
+
+        #item0 {
+            position: relative;
+            float: left;
+            clear: left;
+            width: 269px;
+            height: auto;
+            background: #33691e;
+        }
+
+        #item1 {
+            position: relative;
+            float: right;
+            clear: right;
+            width: 265px;
+            height: auto;
+            background: #558b2f;
+        }
+
+        #item2 {
+            position: relative;
+            float: right;
+            clear: right;
+            width: 265px;
+            height: auto;
+            background: #558b2f;
+        }
+
+        #item3 {
+            position: relative;
+            float: left;
+            clear: left;
+            width: 269px;
+            height: auto;
+            background: #0d47a1;
+        }
+
+        #item4 {
+            position: relative;
+            float: right;
+            clear: right;
+            width: 265px;
+            height: auto;
+            color: #fff;
+            border-radius: 16px;
+            text-align: center;
+            background: #558b2f;
+        }
+
+        #item5 {
+            position: relative;
+            float: left;
+            clear: left;
+            width: 269px;
+            height: auto;
+            background: #0d47a1;
+        }
+
+        .item-text {
+            top: 50%;
+            font-weight: bold;
+            font-size: 22px;
+            color: #fff;
+        }
+
+        #item-text3 {
+            padding: 50px;
+        }
+
+        #page-footer {
+            position: relative;
+            /* bottom: 0; */
+            /* left: 0; */
+            /* right: 0; */
+            width: 100%;
+            height: 50px;
+            background: #333;
+            padding: 10px;
+            float: left;
+            margin: 10px 0 0 -12px;
+        }
+
+        .footer_btn {
+            padding: 3px 5px;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 600;
+            color: #e9e9e9;
+            margin: 0 0 0 20px;
+        }
+
+        .homepage-img {
+            width: 100%;
+        }
+    </style>
+    <script type="text/javascript">
+    </script>
+</head>
+
+<body>
+
+    <div id="header">
+        <!-- Page Header -->
+        <img id="logo" src="images/logo.jpg" alt="company logo">
+        <a id="header-link1" class="header-link" href="#">Home</a>
+        <a id="header-link3" class="header-link" href="#">Our Solutions</a>
+        <select id="header-link4" class="header-link" style="background: #333333; border: 0px;">
+      <option value="dropdown1"><a href="#">Services</a></option><br/>
+      <option value="dropdown2"><a href="#">Iot</a></option><br/>
+      <option value="dropdown3"><a href="#">Cloud Flora</a></option><br/>
+      <option value="dropdown4"><a href="#">Caas</a></option>
+      <option value="dropdown4"><a href="#">STaas</a></option>
+      <option value="dropdown4"><a href="#">Iaas</a></option>
+      <option value="dropdown4"><a href="#">Paas</a></option>
+    </select>
+ </div>
+	<br/><br/><br/><br/><br/><br/><div align="center"><form action='/rk/login.py'>Username : <input  type="text" name="username" /><br/>
+        Password : <input  name="password" type="password"/><br/>
+	<input type="submit" value="Log In"/><br/>
+ 	</form>  
+	</div>	
+    <div id="main-container">
+	
+        <div id="lower-container" class="container-fluid">
+            <!-- Page Header -->
+            <div id="page-header">
+                <h1 color="blue"> Welcome to the world of automation with Cloud-Floura, we are here with the intellegent services and solution for remote automation of the service
+                    <h2>We are powered by Cloud Computing Technology and intellegent Deveops tools like Dockers, Ansible.
+
+                    <br/>
+                    <br/>Our Product and Service are: <br/></h2>
+                </h1>
+            </div>
+
+            <div id="items">
+                <div id="items-inner">
+                    <div id="item0" class="menu-item" role="button" onclick="alert('Internet of things as a services, you can deploy your network any and connect with us. We are here to manage the things for you like storing the output and interconnecting the Iot sytem ')">
+                        <img src="images/iot.jpg" alt="..." class="homepage-img">
+                    </div>
+                    <div id="item1" class="menu-item" role="button" onclick="alert('Cloud-Flora, in the todays, scenerio we are so busy that we forget to take care of the most vital source, Our Flora. We are here with an solution and automated  remotely operated solution powered with cloud computing and Devops tool. Lets save the mother earth!! ')">
+                        <img src="images/logo.jpg" alt="..." class="homepage-img">
+                    </div>
+                    <div id="item2" class="menu-item" role="button" onclick="alert('Deploy as many operating system as you want and carry them with yourself. ')">
+                        <img src="images/iaas.jpg" alt="..." class="homepage-img">
+                    </div>
+                    <div id="item3" class="menu-item" role="button" onclick="alert('Deploy as many servers, as many os, as many network manager, we are here to provide you that superpower')">
+                        <img src="images/caas3.jpg" alt="..." class="homepage-img">
+                    </div>
+                    <div id="item4" class="menu-item" role="button" onclick="alert('Storage as a service, we are providing you the unlimited storage space')">
+                        <img src="images/staas.jpg" alt="..." class="homepage-img">
+                    </div>
+                    <div id="item5" class="menu-item" role="button" onclick="alert('Platform as a service, we are providing you the platform and you just need to take care of the technology and the rest we will handle for you')">
+                        <img src="images/paas.jpg" alt="..." class="homepage-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="page-footer" class="">
+        <a id="footer_btn1" class="footer_btn" href="#">About us</a>
+        <a id="footer_btn2" class="footer_btn" href="#">Linux World Jaipur</a>
+        <a id="footer_btn4" class="footer_btn" href="#">Contact us </a>
+        </div>
+
+</body>
+
+</html>
